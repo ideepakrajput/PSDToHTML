@@ -42,7 +42,7 @@ body{
     .menu{
         display: block;
         position: relative;
-        left: 170px;
+        left: 70vh;
     }
 
 }
