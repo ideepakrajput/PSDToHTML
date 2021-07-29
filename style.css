@@ -1,0 +1,117 @@
+body{
+    background-color: #e7631c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+.bi-search{
+    color: white;
+    margin-right: 20px;
+}
+.home{
+    background-image: url(/home.jpg);
+    width: 100%;
+    height: auto;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tour-title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+    color: white;
+}
+.tour-text{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.tour-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+.tr-bg
+{
+    background-color: #303030;
+}
+.tr-txt{
+    margin-top: 20px;
+}
+.prize-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 400px;
+    color: white;
+    text-align: center;
+}
+.prize{
+    background-color: #303030;
+    margin-top: 30px;
+}
+.prizec{
+    width: 30%;
+    height: 330px;
+    border-radius: 5px ;
+}
+.pr-bg
+{
+    background-color: #e7631c;
+}
+.pr-txt{
+    margin-top: 50px;
+}
+.pr{
+    background-color: #303030;
+    padding: 10px;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+.bi-award{
+    font-size: 100px;
+}
+.card
+{
+    background-color: #e8631c;
+    border: none;
+    color: white;
+}
+.card-body
+{
+    text-align: center;
+}
+.card-title{
+    font-size: 50px;
+}
+@media screen and (max-width:576px) {
+    .tour-title{
+        font-size: 30px;
+    }
+    .tour-text{
+        font-size: 15px;
+    }
+    .tour-card,.prize-card{
+        display: block;
+        margin-top: 50px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .prizec{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .prize-card{
+        height: 1150px;
+    }
+    .pr{
+        margin: 30px;
+    }
+}
