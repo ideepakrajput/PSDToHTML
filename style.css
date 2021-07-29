@@ -90,6 +90,15 @@ body{
 .card-title{
     font-size: 50px;
 }
+.sts{
+    background-color: #303030;
+    color: white;
+    text-align: center;
+}
+.sts-title{
+    font-size: 50px;
+    font-weight: bold;
+}
 @media screen and (max-width:576px) {
     .tour-title{
         font-size: 30px;
