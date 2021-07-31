@@ -13,6 +13,7 @@ body{
     background-image: url(/home.jpg);
     width: 100%;
     height: auto;
+    text-align: center;
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -121,7 +122,64 @@ body{
 .name-title{
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 545px;
+    padding-bottom: 400px;
+}
+.subs{
+    background-color: #e7631c;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.subs-title{
+    padding: 30px 0;
+}
+.subs-text{
+    padding: 30px;
+    
+}
+.subs-t-box{
+    width: 30%;
+    padding: 5px 9px;
+}
+.subs-btn{
+    position: relative;
+    padding: 6px 50px;
+    left: -10px;
+    background-color: #303030;
+    color: white;
+}
+.footer
+{
+    background-color: #303030;
+    padding: 30px;
+    color: white;
+    width: 100%;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.foot-h{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+a:hover{
+    color: sandybrown;
+}
+.icon{
+    font-size: 20px;
+    padding: 0 10px;
+}
+.icon a{
+    display: inline;
+}
+.bi:hover{
+    color: sandybrown;
+}
+.navbar a:hover{
+    color: sandybrown;
 }
 @media screen and (max-width:576px) {
     .tour-title{
@@ -146,5 +204,12 @@ body{
     }
     .pr{
         margin: 30px;
+    }
+    .subs-t-box{
+        width: 50%;
+        margin: 10px;
+    }
+    .subs-btn{
+        left: -20px;
     }
 }
