@@ -178,8 +178,13 @@ a:hover{
 .bi:hover{
     color: sandybrown;
 }
-.navbar a:hover{
+.nav-link a:hover{
     color: sandybrown;
+}
+.love{
+    text-align: center;
+    margin-top: 50px;
+    color: #e8631c;
 }
 @media screen and (max-width:576px) {
     .tour-title{
