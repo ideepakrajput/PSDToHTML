@@ -94,10 +94,34 @@ body{
     background-color: #303030;
     color: white;
     text-align: center;
+    width: 100%;
 }
 .sts-title{
     font-size: 50px;
+    padding-top: 60px;
     font-weight: bold;
+}
+.sts-text{
+    padding: 40px 10px;
+}
+.sts-count{
+    padding: 30px;
+}
+.name{
+    background-image: url(/card4.jpg);
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.name-text{
+    text-align: center;
+    padding-top: 250px;
+    margin: 0 100px;
+}
+.name-title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 545px;
 }
 @media screen and (max-width:576px) {
     .tour-title{
